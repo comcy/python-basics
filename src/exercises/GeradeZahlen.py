@@ -6,7 +6,7 @@ def eingabe(cmd = "Eingabe"):
     except:
         print("Error in Eingabe")
 
-def whileLoop(x, y): 
+def whileLoop01(x, y): 
 
     i = x
     while (i < y):
@@ -17,7 +17,24 @@ def whileLoop(x, y):
 
     print('*'*80)
 
+def whileLoop02(x, y): 
+
+    i = x
+    while (i < y):
+        i+=1
+        if ((i % 2) == 0):
+            print(i)
+    print("Schleife beendet")
+
+    print('*'*80)
+
+
 def forLoop(x, y): 
+
+    if x % 2 ==1:
+        x += 1
+
+    # x = x if x % 2 == 0 else x + 1
     for i in range(x, y):
         if (i % 2 == 0):
             print(i)
@@ -28,6 +45,7 @@ def forLoop(x, y):
 x = eingabe("Von: ")
 y =  eingabe("Bis: ")
 
-whileLoop(x,y)
+whileLoop01(x,y)
+whileLoop02(x,y)
 forLoop(x,y)
 
