@@ -1,0 +1,30 @@
+[
+  {
+    "Vorname": "Klaus",
+    "Nachname": "Schlemmer",
+    "Gewicht": 100,
+    "Groesse": 168,
+    "Bmi": 35.43083900226758
+  },
+  {
+    "Vorname": "Pia",
+    "Nachname": "Flitzebogen",
+    "Gewicht": 55,
+    "Groesse": 164,
+    "Bmi": 20.449137418203453
+  },
+  {
+    "Vorname": "Fritz",
+    "Nachname": "Penker",
+    "Gewicht": 56,
+    "Groesse": 180,
+    "Bmi": 17.28395061728395
+  },
+  {
+    "Vorname": "Martin",
+    "Nachname": "Ludolf",
+    "Gewicht": 88,
+    "Groesse": 171,
+    "Bmi": 30.094730002393902
+  }
+]

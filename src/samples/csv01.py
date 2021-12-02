@@ -71,7 +71,7 @@ def save_csv(filename: str, pliste: list):
             file1.close()
 
 
-def load_csv(filename: str, pliste: list):
+def load_csv(filename: str):
 
     personenListe = []
     file1 = None
@@ -84,7 +84,7 @@ def load_csv(filename: str, pliste: list):
             for line in file1:
                 fields = line.split(";")
 
-                print(fields, type(fields))  # DEBUG LIST
+                # print(fields, type(fields))  # DEBUG LIST
 
                 # In DICT konvertieren
                 pdict = {
@@ -95,7 +95,7 @@ def load_csv(filename: str, pliste: list):
                     "Bmi": float(fields[4].replace(",", "."))
                 }
 
-                print(dict, type(dict))  # DEBUG DICT
+                # print(dict, type(dict))  # DEBUG DICT
 
                 personenListe.append(pdict)
 
@@ -135,9 +135,9 @@ pListe.append(
 
 # save_csv("test.csv", pListe)
 
-neueListe = load_csv("test.csv", pListe)
-print('>>> ', neueListe)
-save_csv("copy.csv", neueListe)
+# neueListe = load_csv("test.csv")
+# print('>>> ', neueListe)
+# save_csv("copy.csv", neueListe)
 
 
 def test_typ_pruefung():
