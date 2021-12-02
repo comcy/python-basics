@@ -4,7 +4,7 @@ def set_test_01():
 
     s1 = {1,2,3,4,5}
     s2 = {3,3,3,4,4}
-
+    
     print( s1, type(s1))
     print( s2, type(s2))
 
